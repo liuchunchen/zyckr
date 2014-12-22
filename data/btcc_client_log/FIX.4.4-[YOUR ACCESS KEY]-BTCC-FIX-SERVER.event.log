@@ -1,0 +1,339 @@
+20141221-08:35:32: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-08:35:32: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-08:35:34: Initiated logon request
+20141221-08:35:34: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-08:35:34: Received logon
+20141221-08:35:36: java.lang.NumberFormatException: For input string: "B"
+quickfix.RuntimeError: java.lang.NumberFormatException: For input string: "B"
+	at quickfix.Session.next(Session.java:1095)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy$SessionMessageEvent.processMessage(SingleThreadedEventHandlingStrategy.java:114)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy.block(SingleThreadedEventHandlingStrategy.java:77)
+	at quickfix.SocketInitiator.block(SocketInitiator.java:60)
+	at com.btcchina.fix.BTCCFIXClient.main(BTCCFIXClient.java:32)
+Caused by: java.lang.NumberFormatException: For input string: "B"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at com.btcchina.fix.util.MessagePrinter.printFieldMap(MessagePrinter.java:44)
+	at com.btcchina.fix.util.MessagePrinter.printFieldMap(MessagePrinter.java:71)
+	at com.btcchina.fix.util.MessagePrinter.print(MessagePrinter.java:29)
+	at com.btcchina.fix.BTCCFIXClientApp.fromApp(BTCCFIXClientApp.java:57)
+	at quickfix.Session.fromCallback(Session.java:1698)
+	at quickfix.Session.verify(Session.java:1650)
+	at quickfix.Session.verify(Session.java:1727)
+	at quickfix.Session.next(Session.java:987)
+	... 4 more
+
+20141221-08:35:36: MsgSeqNum too high, expecting 3 but received 4: 8=FIX.4.49=24735=X34=449=BTCC-FIX-SERVER52=20141221-08:35:35.35856=[YOUR ACCESS KEY]268=3279=1269=1270=1991.83272=20141221273=08:35:35.000279=1269=2270=1991.85272=20141221273=08:35:35.000279=1269=B271=126567.2729272=20141221273=08:35:35.00010=114
+20141221-08:35:36: Auto reset
+20141221-08:35:40: Initiated logon request
+20141221-08:35:40: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-08:35:40: Received logon
+20141221-08:38:12: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-08:38:12: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-08:38:14: Initiated logon request
+20141221-08:38:16: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-08:38:16: Received logon
+20141221-08:46:27: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-08:46:27: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-08:46:29: Initiated logon request
+20141221-08:46:29: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-08:46:29: Received logon
+20141221-08:49:08: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-08:49:08: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-08:49:10: Initiated logon request
+20141221-08:49:12: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-08:49:12: Received logon
+20141221-08:49:51: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-08:49:51: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-08:49:52: Initiated logon request
+20141221-08:49:54: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-08:49:54: Received logon
+20141221-13:20:45: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-13:20:45: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-13:20:46: Initiated logon request
+20141221-13:20:48: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-13:20:48: Received logon
+20141221-13:48:21: Sent test request TEST
+20141221-15:08:02: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-15:08:02: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-15:08:04: Initiated logon request
+20141221-15:08:04: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:08:04: Received logon
+20141221-15:24:15: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-15:24:15: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-15:24:16: Initiated logon request
+20141221-15:24:17: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:24:17: Received logon
+20141221-15:24:20: java.lang.ArrayIndexOutOfBoundsException: 1
+quickfix.RuntimeError: java.lang.ArrayIndexOutOfBoundsException: 1
+	at quickfix.Session.next(Session.java:1095)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy$SessionMessageEvent.processMessage(SingleThreadedEventHandlingStrategy.java:114)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy.block(SingleThreadedEventHandlingStrategy.java:77)
+	at quickfix.SocketInitiator.block(SocketInitiator.java:60)
+	at com.btcchina.fix.BTCCFIXClient.main(BTCCFIXClient.java:32)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.btcchina.fix.util.MessagePrinter.printFieldMap(MessagePrinter.java:114)
+	at com.btcchina.fix.util.MessagePrinter.printFieldMap(MessagePrinter.java:143)
+	at com.btcchina.fix.util.MessagePrinter.print(MessagePrinter.java:57)
+	at com.btcchina.fix.BTCCFIXClientApp.fromApp(BTCCFIXClientApp.java:57)
+	at quickfix.Session.fromCallback(Session.java:1698)
+	at quickfix.Session.verify(Session.java:1650)
+	at quickfix.Session.verify(Session.java:1727)
+	at quickfix.Session.next(Session.java:987)
+	... 4 more
+
+20141221-15:24:20: MsgSeqNum too high, expecting 4 but received 5: 8=FIX.4.49=13535=X34=549=BTCC-FIX-SERVER52=20141221-15:24:20.50656=[YOUR ACCESS KEY]268=1279=1269=1270=2018.34272=20141221273=15:24:20.00010=068
+20141221-15:24:20: Auto reset
+20141221-15:24:22: Initiated logon request
+20141221-15:24:26: Initiated logon request
+20141221-15:24:30: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:24:30: Received logon
+20141221-15:24:30: Received logout request
+20141221-15:24:30: Sent logout response
+20141221-15:24:35: Initiated logon request
+20141221-15:24:35: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:24:35: Received logon
+20141221-15:24:36: java.lang.ArrayIndexOutOfBoundsException: 1
+quickfix.RuntimeError: java.lang.ArrayIndexOutOfBoundsException: 1
+	at quickfix.Session.next(Session.java:1095)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy$SessionMessageEvent.processMessage(SingleThreadedEventHandlingStrategy.java:114)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy.block(SingleThreadedEventHandlingStrategy.java:77)
+	at quickfix.SocketInitiator.block(SocketInitiator.java:60)
+	at com.btcchina.fix.BTCCFIXClient.main(BTCCFIXClient.java:32)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.btcchina.fix.util.MessagePrinter.printFieldMap(MessagePrinter.java:114)
+	at com.btcchina.fix.util.MessagePrinter.printFieldMap(MessagePrinter.java:143)
+	at com.btcchina.fix.util.MessagePrinter.print(MessagePrinter.java:57)
+	at com.btcchina.fix.BTCCFIXClientApp.fromApp(BTCCFIXClientApp.java:57)
+	at quickfix.Session.fromCallback(Session.java:1698)
+	at quickfix.Session.verify(Session.java:1650)
+	at quickfix.Session.verify(Session.java:1727)
+	at quickfix.Session.next(Session.java:987)
+	... 4 more
+
+20141221-15:24:36: MsgSeqNum too high, expecting 3 but received 4: 8=FIX.4.49=13935=X34=449=BTCC-FIX-SERVER52=20141221-15:24:36.29056=[YOUR ACCESS KEY]268=1279=1269=B271=134118.2725272=20141221273=15:24:35.00010=054
+20141221-15:24:36: Auto reset
+20141221-15:24:41: Initiated logon request
+20141221-15:24:41: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:24:41: Received logon
+20141221-15:25:58: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-15:25:58: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-15:25:59: Initiated logon request
+20141221-15:26:00: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:26:00: Received logon
+20141221-15:29:13: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-15:29:13: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-15:29:15: Initiated logon request
+20141221-15:29:16: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:29:16: Received logon
+20141221-15:29:22: java.lang.ArrayIndexOutOfBoundsException: 1
+quickfix.RuntimeError: java.lang.ArrayIndexOutOfBoundsException: 1
+	at quickfix.Session.next(Session.java:1095)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy$SessionMessageEvent.processMessage(SingleThreadedEventHandlingStrategy.java:114)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy.block(SingleThreadedEventHandlingStrategy.java:77)
+	at quickfix.SocketInitiator.block(SocketInitiator.java:60)
+	at com.btcchina.fix.BTCCFIXClient.main(BTCCFIXClient.java:32)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.btcchina.fix.util.MessagePrinter.printFieldMap(MessagePrinter.java:114)
+	at com.btcchina.fix.util.MessagePrinter.printFieldMap(MessagePrinter.java:147)
+	at com.btcchina.fix.util.MessagePrinter.print(MessagePrinter.java:57)
+	at com.btcchina.fix.BTCCFIXClientApp.fromApp(BTCCFIXClientApp.java:57)
+	at quickfix.Session.fromCallback(Session.java:1698)
+	at quickfix.Session.verify(Session.java:1650)
+	at quickfix.Session.verify(Session.java:1727)
+	at quickfix.Session.next(Session.java:987)
+	... 4 more
+
+20141221-15:29:22: MsgSeqNum too high, expecting 5 but received 6: 8=FIX.4.49=47435=W34=649=BTCC-FIX-SERVER52=20141221-15:29:22.66656=[YOUR ACCESS KEY]55=BTCCNY268=8269=0270=2019.56272=20141221273=15:29:20.000269=1270=2019.84272=20141221273=15:29:20.000269=2270=2019.83272=20141221273=15:29:20.000269=5270=2036.28272=20141221273=15:29:20.000269=7270=2042272=20141221273=15:29:20.000269=8270=1970.2272=20141221273=15:29:20.000269=9270=2006.1272=20141221273=15:29:20.000269=B271=134095.3429272=20141221273=15:29:20.00010=070
+20141221-15:29:22: Auto reset
+20141221-15:29:24: Initiated logon request
+20141221-15:29:24: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:29:24: Received logon
+20141221-15:29:26: java.lang.ArrayIndexOutOfBoundsException: 1
+quickfix.RuntimeError: java.lang.ArrayIndexOutOfBoundsException: 1
+	at quickfix.Session.next(Session.java:1095)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy$SessionMessageEvent.processMessage(SingleThreadedEventHandlingStrategy.java:114)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy.block(SingleThreadedEventHandlingStrategy.java:77)
+	at quickfix.SocketInitiator.block(SocketInitiator.java:60)
+	at com.btcchina.fix.BTCCFIXClient.main(BTCCFIXClient.java:32)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.btcchina.fix.util.MessagePrinter.printFieldMap(MessagePrinter.java:114)
+	at com.btcchina.fix.util.MessagePrinter.printFieldMap(MessagePrinter.java:147)
+	at com.btcchina.fix.util.MessagePrinter.print(MessagePrinter.java:57)
+	at com.btcchina.fix.BTCCFIXClientApp.fromApp(BTCCFIXClientApp.java:57)
+	at quickfix.Session.fromCallback(Session.java:1698)
+	at quickfix.Session.verify(Session.java:1650)
+	at quickfix.Session.verify(Session.java:1727)
+	at quickfix.Session.next(Session.java:987)
+	... 4 more
+
+20141221-15:29:27: MsgSeqNum too high, expecting 4 but received 5: 8=FIX.4.49=47435=W34=549=BTCC-FIX-SERVER52=20141221-15:29:27.63556=[YOUR ACCESS KEY]55=BTCCNY268=8269=0270=2019.56272=20141221273=15:29:25.000269=1270=2019.84272=20141221273=15:29:25.000269=2270=2019.57272=20141221273=15:29:25.000269=5270=2036.28272=20141221273=15:29:25.000269=7270=2042272=20141221273=15:29:25.000269=8270=1970.2272=20141221273=15:29:25.000269=9270=2006.1272=20141221273=15:29:25.000269=B271=134107.4369272=20141221273=15:29:25.00010=109
+20141221-15:29:27: Auto reset
+20141221-15:29:30: Initiated logon request
+20141221-15:29:30: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:29:30: Received logon
+20141221-15:29:30: java.lang.ArrayIndexOutOfBoundsException: 1
+quickfix.RuntimeError: java.lang.ArrayIndexOutOfBoundsException: 1
+	at quickfix.Session.next(Session.java:1095)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy$SessionMessageEvent.processMessage(SingleThreadedEventHandlingStrategy.java:114)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy.block(SingleThreadedEventHandlingStrategy.java:77)
+	at quickfix.SocketInitiator.block(SocketInitiator.java:60)
+	at com.btcchina.fix.BTCCFIXClient.main(BTCCFIXClient.java:32)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.btcchina.fix.util.MessagePrinter.printFieldMap(MessagePrinter.java:114)
+	at com.btcchina.fix.util.MessagePrinter.printFieldMap(MessagePrinter.java:147)
+	at com.btcchina.fix.util.MessagePrinter.print(MessagePrinter.java:57)
+	at com.btcchina.fix.BTCCFIXClientApp.fromApp(BTCCFIXClientApp.java:57)
+	at quickfix.Session.fromCallback(Session.java:1698)
+	at quickfix.Session.verify(Session.java:1650)
+	at quickfix.Session.verify(Session.java:1727)
+	at quickfix.Session.next(Session.java:987)
+	... 4 more
+
+20141221-15:29:30: MsgSeqNum too high, expecting 3 but received 4: 8=FIX.4.49=13535=X34=449=BTCC-FIX-SERVER52=20141221-15:29:31.00056=[YOUR ACCESS KEY]268=1279=1269=1270=2019.57272=20141221273=15:29:30.00010=075
+20141221-15:29:30: Auto reset
+20141221-15:29:36: Initiated logon request
+20141221-15:29:36: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:29:36: Received logon
+20141221-15:29:36: Received logout request
+20141221-15:29:36: Sent logout response
+20141221-15:29:42: Initiated logon request
+20141221-15:29:42: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:29:42: Received logon
+20141221-15:29:45: java.lang.ArrayIndexOutOfBoundsException: 1
+quickfix.RuntimeError: java.lang.ArrayIndexOutOfBoundsException: 1
+	at quickfix.Session.next(Session.java:1095)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy$SessionMessageEvent.processMessage(SingleThreadedEventHandlingStrategy.java:114)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy.block(SingleThreadedEventHandlingStrategy.java:77)
+	at quickfix.SocketInitiator.block(SocketInitiator.java:60)
+	at com.btcchina.fix.BTCCFIXClient.main(BTCCFIXClient.java:32)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.btcchina.fix.util.MessagePrinter.printFieldMap(MessagePrinter.java:114)
+	at com.btcchina.fix.util.MessagePrinter.printFieldMap(MessagePrinter.java:147)
+	at com.btcchina.fix.util.MessagePrinter.print(MessagePrinter.java:57)
+	at com.btcchina.fix.BTCCFIXClientApp.fromApp(BTCCFIXClientApp.java:57)
+	at quickfix.Session.fromCallback(Session.java:1698)
+	at quickfix.Session.verify(Session.java:1650)
+	at quickfix.Session.verify(Session.java:1727)
+	at quickfix.Session.next(Session.java:987)
+	... 4 more
+
+20141221-15:29:45: MsgSeqNum too high, expecting 11 but received 12: 8=FIX.4.49=19435=X34=1249=BTCC-FIX-SERVER52=20141221-15:29:45.86056=[YOUR ACCESS KEY]268=2279=1269=0270=2019.74272=20141221273=15:29:45.000279=1269=B271=134184.9087272=20141221273=15:29:45.00010=136
+20141221-15:29:45: Auto reset
+20141221-15:29:48: Initiated logon request
+20141221-15:29:48: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:29:48: Received logon
+20141221-15:29:53: java.lang.ArrayIndexOutOfBoundsException: 1
+quickfix.RuntimeError: java.lang.ArrayIndexOutOfBoundsException: 1
+	at quickfix.Session.next(Session.java:1095)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy$SessionMessageEvent.processMessage(SingleThreadedEventHandlingStrategy.java:114)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy.block(SingleThreadedEventHandlingStrategy.java:77)
+	at quickfix.SocketInitiator.block(SocketInitiator.java:60)
+	at com.btcchina.fix.BTCCFIXClient.main(BTCCFIXClient.java:32)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.btcchina.fix.util.MessagePrinter.printFieldMap(MessagePrinter.java:114)
+	at com.btcchina.fix.util.MessagePrinter.printFieldMap(MessagePrinter.java:147)
+	at com.btcchina.fix.util.MessagePrinter.print(MessagePrinter.java:57)
+	at com.btcchina.fix.BTCCFIXClientApp.fromApp(BTCCFIXClientApp.java:57)
+	at quickfix.Session.fromCallback(Session.java:1698)
+	at quickfix.Session.verify(Session.java:1650)
+	at quickfix.Session.verify(Session.java:1727)
+	at quickfix.Session.next(Session.java:987)
+	... 4 more
+
+20141221-15:29:54: MsgSeqNum too high, expecting 14 but received 15: 8=FIX.4.49=47435=W34=1549=BTCC-FIX-SERVER52=20141221-15:29:54.51056=[YOUR ACCESS KEY]55=BTCCNY268=8269=0270=2019.9272=20141221273=15:29:52.000269=1270=2019.92272=20141221273=15:29:52.000269=2270=2019.9272=20141221273=15:29:52.000269=5270=2036.28272=20141221273=15:29:52.000269=7270=2042272=20141221273=15:29:52.000269=8270=1970.2272=20141221273=15:29:52.000269=9270=2006.11272=20141221273=15:29:52.000269=B271=134184.9099272=20141221273=15:29:52.00010=107
+20141221-15:29:54: Auto reset
+20141221-15:29:56: Initiated logon request
+20141221-15:29:56: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:29:56: Received logon
+20141221-15:30:47: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-15:30:47: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-15:30:48: Initiated logon request
+20141221-15:30:49: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:30:49: Received logon
+20141221-15:31:49: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-15:31:49: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-15:31:50: Initiated logon request
+20141221-15:31:52: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:31:52: Received logon
+20141221-15:36:38: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-15:36:38: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-15:36:39: Initiated logon request
+20141221-15:36:41: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:36:41: Received logon
+20141221-15:39:34: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-15:39:34: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-15:39:35: Initiated logon request
+20141221-15:39:36: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:39:36: Received logon
+20141221-15:41:14: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-15:41:14: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-15:41:15: Initiated logon request
+20141221-15:41:17: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:41:17: Received logon
+20141221-15:45:45: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-15:45:45: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-15:45:46: Initiated logon request
+20141221-15:45:49: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-15:45:49: Received logon
+20141221-17:38:47: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-17:38:47: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-17:38:49: Initiated logon request
+20141221-17:38:49: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-17:38:49: Received logon
+20141221-17:40:06: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-17:40:06: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-17:40:07: Initiated logon request
+20141221-17:40:07: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-17:40:07: Received logon
+20141221-17:41:52: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-17:41:52: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-17:41:54: Initiated logon request
+20141221-17:41:55: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-17:41:55: Received logon
+20141221-17:43:46: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-17:43:46: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-17:43:48: Initiated logon request
+20141221-17:43:48: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-17:43:48: Received logon
+20141221-17:44:20: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-17:44:20: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-17:44:21: Initiated logon request
+20141221-17:44:21: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-17:44:21: Received logon
+20141221-17:46:09: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-17:46:09: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-17:46:11: Initiated logon request
+20141221-17:46:12: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-17:46:12: Received logon
+20141221-17:47:41: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-17:47:41: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-17:47:42: Initiated logon request
+20141221-17:47:43: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-17:47:43: Received logon
+20141221-17:50:35: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-17:50:35: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-17:50:36: Initiated logon request
+20141221-17:50:41: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-17:50:41: Received logon
+20141221-17:52:22: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-17:52:22: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-17:52:23: Initiated logon request
+20141221-17:52:23: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-17:52:23: Received logon
+20141221-17:54:14: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-17:54:14: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-17:54:15: Initiated logon request
+20141221-17:54:18: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-17:54:18: Received logon
+20141221-17:56:10: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-17:56:10: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-17:56:11: Initiated logon request
+20141221-17:56:15: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-17:56:15: Received logon
+20141221-18:13:15: Session FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20141221-18:13:15: Created session: FIX.4.4:[YOUR ACCESS KEY]->BTCC-FIX-SERVER
+20141221-18:13:16: Initiated logon request
+20141221-18:13:19: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20141221-18:13:19: Received logon
